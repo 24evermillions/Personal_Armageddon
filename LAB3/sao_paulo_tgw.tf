@@ -1,3 +1,4 @@
+
 # Explanation: Liberdade is São Paulo’s Japanese town—local doctors, local compute, remote data.
 resource "aws_ec2_transit_gateway" "liberdade_tgw01" {
   provider    = aws.saopaulo

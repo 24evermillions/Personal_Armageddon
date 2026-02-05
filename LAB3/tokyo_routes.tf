@@ -35,5 +35,3 @@ resource "aws_route" "shinjuku_public_internet_access" {
   destination_cidr_block = "0.0.0.0/0"
   gateway_id             = aws_internet_gateway.shinjuku_igw.id
 }
-
-
